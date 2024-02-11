@@ -5,88 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
-
-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-nav {
-  background-color: #0056b3;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  margin: 0 10px;
-  border-radius: 5px;
-}
-
-nav a:hover {
-  background-color: #003366;
-}
-
-section {
-  padding: 20px;
-  margin: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-h2 {
-  color: #007bff;
-}
-
-
-.featured-careers {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-
-.featured-careers h2 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.career-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.career-item {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-}
-
-.career-item h3 {
-  color: #007bff;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.career-item p {
-  color: #666;
-  font-size: 16px;
-}
-

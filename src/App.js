@@ -4,6 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
 import Contact from './pages/Contact';
+import JobDetails from './pages/JobDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home/>} />
             <Route path="explore" element={<Explore />} />
             <Route path="contact" element={<Contact />} />
+            <Route path='explore/jobdetails/:id' element={<JobDetails/>} />
           </Route>
         </Routes>
       </BrowserRouter>
