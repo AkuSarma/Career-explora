@@ -17,11 +17,25 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your form submission logic here
-    console.log(formData);
-    setFormData({ name: "", email: "", message: "" });
+
+    const res = await fetch(
+      "https://test-career-explora-default-rtdb.firebaseio.com/contactform.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      }
+    );
+    if (res.ok) {
+        alert("Form submitted");
+        setFormData({ name: "", email: "", message: "" });
+    } else {
+        alert("Form was not submitted")
+    }
   };
 
   return (

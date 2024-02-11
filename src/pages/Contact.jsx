@@ -1,5 +1,3 @@
-// https://test-career-explora-default-rtdb.firebaseio.com/contactform.json
-
 import ContactForm from '../components/ContactFrom'
 
 const Contact = () => {
