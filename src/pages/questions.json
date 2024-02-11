@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Are you comfortable working independently, or do you prefer collaborative environments?"
+      },
+      {
+        "id": 2,
+        "question": "Do you enjoy working with numbers, data, and statistics?"
+      },
+      {
+        "id": 3,
+        "question": "Are you detail-oriented and enjoy organizing information or tasks?"
+      },
+      {
+        "id": 4,
+        "question": "Do you have strong communication skills, both written and verbal?"
+      },
+      {
+        "id": 5,
+        "question": "Are you interested in technology and enjoy learning about new advancements?"
+      },
+      {
+        "id": 6,
+        "question": "Do you prefer hands-on activities and problem-solving in practical scenarios?"
+      },
+      {
+        "id": 7,
+        "question": "Are you drawn to creative tasks such as art, design, or writing?"
+      },
+      {
+        "id": 8,
+        "question": "Do you enjoy interacting with people and providing customer service?"
+      },
+      {
+        "id": 9,
+        "question": "Are you passionate about making a positive impact on society or the environment?"
+      },
+      {
+        "id": 10,
+        "question": "Do you thrive in fast-paced and dynamic environments, or do you prefer stability and routine?"
+      },
+      {
+        "id": 11,
+        "question": "Are you interested in leadership roles and taking on responsibilities?"
+      },
+      {
+        "id": 12,
+        "question": "Do you enjoy exploring different cultures, languages, or global perspectives?"
+      },
+      {
+        "id": 13,
+        "question": "Are you curious about how businesses operate and make strategic decisions?"
+      },
+      {
+        "id": 14,
+        "question": "Do you have a natural aptitude for understanding and interpreting complex systems or concepts?"
+      },
+      {
+        "id": 15,
+        "question": "Are you interested in healthcare, wellness, and helping others improve their quality of life?"
+      }
+    ]
+  }
+  
