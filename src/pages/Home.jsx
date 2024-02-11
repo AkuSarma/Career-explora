@@ -1,11 +1,16 @@
 import './Home.css';
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const knowYourStrengthHerf = `questions`;
   return (
     <div>
       <section className="para">
           <h2>Welcome to Career Exploration</h2>
           <p>Explore different career options, identify your strengths and interests, and plan your future career path with our app.</p>
+          <div className="btn">
+          <Link to={knowYourStrengthHerf}><button>Know Your strength</button></Link>
+          </div>
         </section>
         <section className="featured-careers">
           <h2>Featured Careers</h2>
