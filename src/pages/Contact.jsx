@@ -1,10 +1,12 @@
 // https://test-career-explora-default-rtdb.firebaseio.com/contactform.json
 
-import React from 'react'
+import ContactForm from '../components/ContactFrom'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+        <ContactForm/>
+    </>
   )
 }
 
