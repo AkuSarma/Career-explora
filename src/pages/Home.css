@@ -44,3 +44,7 @@ h2 {
   font-size: 16px;
 }
 
+.para button {
+  border: 1px solid black;
+  color: black;
+}

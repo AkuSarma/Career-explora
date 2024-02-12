@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import questionsData from './questions.json'; // Import JSON data
+import './Questions.css';
 
 const StrengthsInterestsAnalysis = () => {
   const [answers, setAnswers] = useState({});
@@ -41,12 +42,14 @@ const StrengthsInterestsAnalysis = () => {
   };
 
   return (
-    <div>
+    <div className='Questions'>
       <h2>Strengths and Interests Analysis</h2>
-      <p>Answer the following questions to identify your strengths and interests:</p>
-      
+      <p>
+        Answer the following questions to identify your strengths and interests:
+      </p>
+
       <div className="assessment-questions">
-        {questions.map(question => (
+        {questions.map((question) => (
           <Question
             key={question.id}
             id={question.id}
@@ -55,8 +58,9 @@ const StrengthsInterestsAnalysis = () => {
           />
         ))}
       </div>
-
-      <button onClick={handleSubmit}>Submit</button>
+      <center>
+        <button onClick={handleSubmit}>Submit</button>
+      </center>
 
       {results && (
         <div className="assessment-results">
@@ -77,8 +81,23 @@ const Question = ({ id, question, onAnswerSelection }) => {
     <div className="question">
       <p>{question}</p>
       <div className="options">
-        <button onClick={() => handleOptionSelection(1)}>Yes</button>
-        <button onClick={() => handleOptionSelection(0)}>No</button>
+        <input
+          type="radio"
+          id={`option-${id}-2`}
+          name={`radio-group-${id}`}
+          value="1"
+          onClick={() => handleOptionSelection(1)}
+        />
+        <label for="option-1">Yes</label>
+        <br />
+        <input
+          type="radio"
+          id={`option-${id}-1`}
+          name={`radio-group-${id}`}
+          value="0"
+          onClick={() => handleOptionSelection(0)}
+        />
+        <label for="option-2">No</label>
       </div>
     </div>
   );
