@@ -5,7 +5,7 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   max-width: 800px;
-
+  margin-bottom: 60vh;
   /* Title */
   h3 {
     font-size: 1.8rem;
