@@ -20,7 +20,7 @@ const Home = () => {
         </p>
         <div className="btn">
           <Link to={knowYourStrengthHerf}>
-            <button>Know Your strength</button>
+            <button>Self Assess</button>
           </Link>
         </div>
       </section>

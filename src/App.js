@@ -6,6 +6,7 @@ import Explore from './pages/Explore';
 import Contact from './pages/Contact';
 import JobDetails from './pages/JobDetails';
 import Questions from './pages/Questions'
+import Community from './pages/Community';
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home/>} />
+            <Route index element={<Home />} />
             <Route path="explore" element={<Explore />} />
             <Route path="contact" element={<Contact />} />
-            <Route path='explore/jobdetails/:id' element={<JobDetails/>} />
-            <Route path='questions' element={<Questions/>} />
+            <Route path="explore/jobdetails/:id" element={<JobDetails />} />
+            <Route path="questions" element={<Questions />} />
+            <Route path="community" element={<Community />} />
           </Route>
         </Routes>
       </BrowserRouter>
