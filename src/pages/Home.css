@@ -24,6 +24,9 @@ section {
   width: 100%;
   flex-direction: column;
   height: 70vh;
+  background-image: url(../components/images/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .para h2 {
