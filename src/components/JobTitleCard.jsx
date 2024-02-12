@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../pages/Explore.css'
 
 const JobTitleCard = ({ role, key }) => {
   const learMoreHerf = `jobdetails/${role}`;

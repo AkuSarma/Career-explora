@@ -1,0 +1,32 @@
+.JobDetails{
+  /* Basic container styles */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 800px;
+
+  /* Title */
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  /* Job details paragraph */
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Required qualifications list */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+}
