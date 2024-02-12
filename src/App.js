@@ -18,6 +18,7 @@ function App() {
             <Route path="explore" element={<Explore />} />
             <Route path="contact" element={<Contact />} />
             <Route path="explore/jobdetails/:id" element={<JobDetails />} />
+            <Route path="jobdetails/:id" element={<JobDetails />} />
             <Route path="questions" element={<Questions />} />
             <Route path="community" element={<Community />} />
           </Route>

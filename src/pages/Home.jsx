@@ -24,12 +24,20 @@ const Home = () => {
           </Link>
         </div>
       </section>
+      <hr />
       <section className="featured-careers">
         <h2>Featured Careers</h2>
         <div className="career-list">
           {jobTitles.map((role) => (
             <JobTitleCard role={role} key={role} />
           ))}
+        </div>
+      </section>
+      <hr />
+      <section className="Resources">
+        <h2>Some important resources:</h2>
+        <div className="article-box">
+            <h3>Articles related to Career guides and scholarships will be shared here..</h3>
         </div>
       </section>
     </div>
